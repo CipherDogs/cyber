@@ -16,20 +16,6 @@
     <main>
         <h2>cyber~Russian community</h2>
         <p>Cyber - A decentralized Google for provable and relevant answers. We are the builders of The Great Web</p>
-        <div class="blocks">
-            <div class="block">
-                <div id="height"></div>
-                height
-            </div>
-            <div class="block">
-                <div id="cyberlinks"></div>
-                cyberlinks
-            </div>
-            <div class="block">
-                <div id="cid"></div>
-                content ids
-            </div>
-        </div>
         <div class="row">
             <a class="icon cyber-page" target="_blank" href="https://cyber.page/"></a>
             <a class="icon github" target="_blank" href="https://github.com/CipherDogs"></a>
@@ -50,20 +36,5 @@
         Copyleft 2020 CipherDogs<br>
         Source code available under the AGPL
     </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script>
-        $.ajax({
-            url: "https://cyberd.ai/index_stats?",
-            success: function(data){
-                var height = data.result.height;
-                var cyberlinks = data.result.linksCount;
-                var cid = data.result.cidsCount;
-
-                document.getElementById("height").innerHTML = height;
-                document.getElementById("cyberlinks").innerHTML = cyberlinks;
-                document.getElementById("cid").innerHTML = cid;
-            }
-        });
-    </script>
 </body>
 </html>
