@@ -59,22 +59,6 @@ footer {
     text-align: center;
 }
 
-.blocks {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.block {
-    box-shadow: 0 0 5px #36d6ae;
-    min-width: 200px;
-    padding: 30px 0;
-    margin: 10px;
-    text-align: center;
-    color: #36d6ae;
-}
-
 .row {
     display: flex;
     flex-direction: row;
