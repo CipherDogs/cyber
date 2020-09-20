@@ -77,6 +77,10 @@ footer {
     padding: 10px 20px;
 }
 
+.block-small:hover {
+    box-shadow: 0 0 20px #36d6ae;
+}
+
 .row {
     display: flex;
     flex-direction: row;
