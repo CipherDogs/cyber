@@ -59,6 +59,24 @@ footer {
     text-align: center;
 }
 
+.blocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.block {
+    box-shadow: 0 0 5px #36d6ae;
+    margin: 10px;
+    text-align: center;
+    color: #36d6ae;
+}
+
+.block-small {
+    padding: 10px 20px;
+}
+
 .row {
     display: flex;
     flex-direction: row;
