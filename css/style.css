@@ -107,3 +107,12 @@ footer {
 .telegram {
     background-image: url("../img/telegram.svg");
 }
+
+.divider {
+    width: 50px;
+    height: 3px;
+    border-radius: 3px;
+    background: #36d6ae;
+    display: block;
+    margin: 0 auto 0 auto;
+}
